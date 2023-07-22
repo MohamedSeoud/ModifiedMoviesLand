@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Fragment>
     <Header/>
-    <div className='about'>
+    <div id='hero'>
     <Container className='justify-content-center'>
     <Routes>
     <Route path='/' element={<MoviesList/>}/>

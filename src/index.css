@@ -59,12 +59,12 @@
   /*--------------------------------------------------------------
   # About
   --------------------------------------------------------------*/
-  .about {
+  /* .about {
     background: url("./images/1.jpg") center center;
     background-size: cover;
     position: relative;
     padding: 80px 0;
-  }
+  } */
   
   .about:before {
     content: "";
@@ -240,6 +240,63 @@
 .container .box .body .content div h3{
     letter-spacing: 1px;
 }
+
+
+#hero {
+  
+  background: url("./images/6.jpg") ;
+  background-size: cover;
+  position: relative;
+  animation: change 20s infinite ease-in-out;
+  padding: 80px 0;
+
+} 
+@keyframes change{
+  0%{
+    background: url("./images/6.jpg") ; 
+    background-size: cover;
+  }
+
+  20%{
+    background: url("./images/5.jpg") ; 
+    background-size: cover;
+  }
+
+  40%{
+    background: url("./images/4.jpg") ; 
+    background-size: cover;
+  }
+  
+  60%{
+    background: url("./images/3.jpg") ; 
+    background-size: cover;
+  }
+
+  80%{
+    background: url("./images/2.jpg") ; 
+    background-size: cover;
+  }
+
+  100%{
+    background: url("./images/1.jpg") ; 
+    background-size: cover;
+  }
+
+}
+
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
 ---------------------------------------------------------
 .Logo{
     color: azure;

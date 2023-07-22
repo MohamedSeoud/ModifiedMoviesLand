@@ -1,9 +1,6 @@
 import React from 'react'
 import { Fragment } from 'react'
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
-import image from '../images/logo.jpg'
-import { Zoom,Fade } from 'react-reveal'
+import { Fade } from 'react-reveal'
 import { useNavigate } from 'react-router-dom';
 
 
