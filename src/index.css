@@ -111,7 +111,7 @@
     height: 1710px;
     width: 1400px;
     border-radius: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     margin-right: -45px;
 }
 
@@ -132,3 +132,33 @@ text-overflow: ellipsis;
     overflow: hidden;
     text-overflow: ellipsis;   
 }
+
+
+
+  .pagination > li {
+    list-style: none;
+    border: 3px solid;
+  }
+  .pagination > li > a,
+  .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #2c689c;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+  }
+  
+  .pagination>li.active>a {
+    color: #fff;
+    background-color: #ad1212;
+    border-color: #ad1212;
+  }
+  
+  .pagination > li > a:hover {
+    background-color:  #ad1212;
+    color: white;
+  }
