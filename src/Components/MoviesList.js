@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import CardItem from './CardItem'
-import { Container,Row } from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import { Fade } from 'react-reveal'
